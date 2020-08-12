@@ -1,0 +1,72 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background: url('../img/booty.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', serif;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, .5);
+    margin: 140px auto 0 auto;
+    max-width: 400px;
+    padding: 30px;
+    letter-spacing: 2px;
+    font-size: 22px;
+    line-height: 20px;
+}
+
+h1 span {
+    font-weight: bold;
+    color: rgb(233, 68, 68);
+    text-decoration: underline;
+}
+
+.button {
+    display: block;
+    width: 160px;
+  background-color: red;
+  -webkit-box-shadow: 0 5px 0 darkred;
+          box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 40px auto 0 auto;
+}
+
+.button:hover {
+  background-color: #ce0606;
+  cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+h2 span {
+    color: red;
+}
+
+
+@media screen and (max-width: 450px) {
+    body {
+        background-position: top center;
+        background-size: cover;
+    }
+}
